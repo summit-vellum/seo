@@ -1,0 +1,26 @@
+{
+    "name": "quill/seo",
+    "description": "Quill authoring seo management dashboard.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Summit Digital",
+            "email": "spci.redesign@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Quill\\Seo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quill\\Seo\\SeoServiceProvider"
+            ]
+        }
+    }
+}
